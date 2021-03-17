@@ -9,6 +9,16 @@ class Node:
         self.next_node = next_node
 
 
+def insert_at_end(linked_list, value):
+    if linked_list is None:
+        return Node(value)
+    itr = linked_list
+
+    while itr.next_node is not None:
+        itr = itr.next_node
+    itr.next_node = Node(value)
+
+
 def reverse(linked_list: Node):
     if linked_list is None:
         return
@@ -30,7 +40,7 @@ def reverse(linked_list: Node):
 def print_list(list):
     itr = list
     while itr is not None:
-        print(str(itr.value) + "-->", end="")
+        print(str(itr.value) + " --> ", end="")
         itr = itr.next_node
     print("null")
 
@@ -48,3 +58,7 @@ if __name__ == "__main__":
 
     print_list(n1)
     print_list(reverse(n1))
+
+    insert_at_end(n5, 0)
+    insert_at_end(n5, -1)
+    print_list(n5)
