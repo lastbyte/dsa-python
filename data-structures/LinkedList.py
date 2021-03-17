@@ -1,5 +1,4 @@
 
-
 class Node:
     """
     helper Node class
@@ -17,6 +16,12 @@ def insert_at_end(linked_list, value):
     while itr.next_node is not None:
         itr = itr.next_node
     itr.next_node = Node(value)
+
+
+def insert_at_start(linked_list, value):
+    node_to_insert = Node(value)
+    node_to_insert.next_node = linked_list
+    return node_to_insert
 
 
 def reverse(linked_list: Node):
@@ -37,8 +42,8 @@ def reverse(linked_list: Node):
     return curr_ptr
 
 
-def print_list(list):
-    itr = list
+def print_list(linked_list):
+    itr = linked_list
     while itr is not None:
         print(str(itr.value) + " --> ", end="")
         itr = itr.next_node
@@ -61,4 +66,5 @@ if __name__ == "__main__":
 
     insert_at_end(n5, 0)
     insert_at_end(n5, -1)
-    print_list(n5)
+    l = insert_at_start(n5, 10)
+    print_list(l)
