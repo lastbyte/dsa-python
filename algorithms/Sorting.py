@@ -27,8 +27,10 @@ def selection_sort(array):
         array[i], array[min_index] = array[min_index], array[i]
     return array
 
-arr = [9, 1, 6, 2, 5, 3, 4, 8, 7]
 
-print(bubble_sort(arr))
-print(insertion_sort(arr))
-print(selection_sort(arr))
+if __name__ == "__main__":
+    arr = [9, 1, 6, 2, 5, 3, 4, 8, 7]
+    print("original array : " + str(arr))
+    print("sorted array (Bubble sort) : " + str(bubble_sort(arr)))
+    print("sorted array (Bubble sort) : " + str(insertion_sort(arr)))
+    print("sorted array (Bubble sort) : " + str(selection_sort(arr)))
