@@ -1,8 +1,8 @@
-
 class Node:
     """
     helper Node class
     """
+
     def __init__(self, value: int, next_node=None):
         self.value = value
         self.next_node = next_node
@@ -22,6 +22,24 @@ def insert_at_start(linked_list, value):
     node_to_insert = Node(value)
     node_to_insert.next_node = linked_list
     return node_to_insert
+
+
+def delete(linked_list, value):
+    if linked_list is None:
+        return
+    prev_node = None
+    curr_node = linked_list
+    deleted = False
+    while curr_node is not None and not deleted:
+        if curr_node.value == value:
+            if prev_node is None:
+                return curr_node.next_node
+            else:
+                prev_node.next_node = curr_node.next_node
+                deleted = True
+        prev_node = curr_node
+        curr_node = curr_node.next_node
+    return linked_list
 
 
 def reverse(linked_list: Node):
@@ -61,10 +79,28 @@ if __name__ == "__main__":
     n3.next_node = n4
     n4.next_node = n5
 
-    print_list(n1)
-    print_list(reverse(n1))
+    print("original list : ", end="")
+    original_list = n1;
+    print_list(original_list)
 
-    insert_at_end(n5, 0)
-    insert_at_end(n5, -1)
-    l = insert_at_start(n5, 10)
-    print_list(l)
+    print("reverse list : ", end="")
+    reverse_list = reverse(original_list)
+    print_list(reverse_list)
+
+    original_list = reverse(reverse_list)
+
+    print("insert 6 at end : ", end="")
+    insert_at_end(original_list, 6)
+    print_list(original_list)
+
+    print("insert 7 at end : ", end="")
+    insert_at_end(original_list, 7)
+    print_list(original_list)
+
+    print("insert 10 at start : ", end="")
+    original_list = insert_at_start(original_list, 10)
+    print_list(original_list)
+
+    print("delete node with value 2 : ", end="")
+    original_list = delete(original_list, 2)
+    print_list(original_list)
