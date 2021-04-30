@@ -1,4 +1,4 @@
-###########################################################################################
+"""
 # Question :
 #    Given a binary tree and a number, return true if the tree has a root-to-leaf
 #    path such that adding up all the values along the path equals the given number.
@@ -14,7 +14,7 @@
 #
 #   For this tree there are three possible path sums 14, 23 and 21.
 #   So the method should return True for only 14, 23 and 21 in this case.
-###########################################################################################
+"""
 
 
 class Node:
