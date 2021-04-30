@@ -11,7 +11,11 @@ def has_loop(root):
         if slow_ptr == fast_ptr:
             loop_found = True
         else:
-            slow_ptr, fast_ptr = slow_ptr.next_node, fast_ptr.next_node if fast_ptr.next_node is None else fast_ptr.next_node.next_node
+            slow_ptr, \
+            fast_ptr = slow_ptr.next_node, \
+                       fast_ptr.next_node.next_node \
+                           if fast_ptr.next_node is not None \
+                           else fast_ptr.next_node
 
     if loop_found:
         slow_ptr = root
@@ -19,7 +23,7 @@ def has_loop(root):
             slow_ptr, fast_ptr = slow_ptr.next_node, fast_ptr.next_node
         return slow_ptr
 
-    return loop_found;
+    return loop_found
 
 
 class Node:

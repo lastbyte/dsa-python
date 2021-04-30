@@ -1,4 +1,4 @@
-class Node:
+class LinkedList:
     """
     helper Node class
     """
@@ -10,16 +10,16 @@ class Node:
 
 def insert_at_end(linked_list, value):
     if linked_list is None:
-        return Node(value)
+        return LinkedList(value)
     itr = linked_list
 
     while itr.next_node is not None:
         itr = itr.next_node
-    itr.next_node = Node(value)
+    itr.next_node = LinkedList(value)
 
 
 def insert_at_start(linked_list, value):
-    node_to_insert = Node(value)
+    node_to_insert = LinkedList(value)
     node_to_insert.next_node = linked_list
     return node_to_insert
 
@@ -42,13 +42,11 @@ def delete(linked_list, value):
     return linked_list
 
 
-def reverse(linked_list: Node):
+def reverse(linked_list: LinkedList):
     if linked_list is None:
         return
 
-    prev_ptr = None
-    curr_ptr = linked_list
-    next_ptr = curr_ptr.next_node
+    prev_ptr, curr_ptr, next_ptr = None, linked_list, linked_list.next_node
 
     while next_ptr is not None:
         curr_ptr.next_node = prev_ptr
@@ -69,11 +67,11 @@ def print_list(linked_list):
 
 
 if __name__ == "__main__":
-    n1 = Node(1)
-    n2 = Node(2)
-    n3 = Node(3)
-    n4 = Node(4)
-    n5 = Node(5)
+    n1 = LinkedList(1)
+    n2 = LinkedList(2)
+    n3 = LinkedList(3)
+    n4 = LinkedList(4)
+    n5 = LinkedList(5)
     n1.next_node = n2
     n2.next_node = n3
     n3.next_node = n4
