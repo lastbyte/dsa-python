@@ -9,7 +9,8 @@ def three_sum( nums : []) -> [] :
             elif nums[i] + nums[left] + nums[right] > 0:
                 right = right - 1
             elif nums[i] + nums[left] + nums[right] == 0 :
-                ret_list.append([nums[i], nums[left], nums[right]])
+                if not ret_list.__contains__([nums[i], nums[left], nums[right]]) :
+                    ret_list.append([nums[i], nums[left], nums[right]])
                 left = left + 1
 
     return ret_list
