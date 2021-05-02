@@ -6,7 +6,7 @@ from pprint import pprint
 
 class Solution:
     def longestPalindrome(self, s: str) -> str:
-        memory = [[False] * len(s) for i in range(len(s) + 1)]
+        memory = create_array_2d(rows=len(s)+1, cols=len(s),default_value=False)
         return self.longestPalindromeUtil(s, memory)
 
 
@@ -33,7 +33,8 @@ class Solution:
         return palindrome
 
 
-
+def create_array_2d(rows,cols, default_value=None):
+    return [[default_value] * cols for i in range(rows)]
 
 
 '''
