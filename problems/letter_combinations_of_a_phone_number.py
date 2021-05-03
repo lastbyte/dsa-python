@@ -68,6 +68,6 @@ if __name__ == "__main__":
     solution = Solution()
     digits = "2222"
     result = solution.letterCombinations(digits)
-    print(result)P
+    print(result)
     result = solution.reverseLetterCombination('baba')
     print(result)
