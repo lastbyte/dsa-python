@@ -1,3 +1,5 @@
+import functools
+
 def is_palindrome(s: str) -> bool:
     formatted_string = ''.join(c for c in s if c.isalnum()).lower()
     itr = 0
@@ -24,6 +26,12 @@ def is_palindrome_1(s: str) -> bool:
             left += 1
     return True
 
+
+def isPalindrome(s):
+    return functools.reduce(lambda a,b : a or b, [s[i] == s[len(s)-i-1] for i in range(len(s)//2)])
+
+
+print("is {} a palindrome : {}".format("aaa", isPalindrome("aaa")))
 
 if __name__ == "__main__":
     input = "A man, a plan, a canal: Panama"

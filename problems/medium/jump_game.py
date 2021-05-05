@@ -7,7 +7,11 @@ You can assume that you can always reach the last index.
 
 
 class Solution:
-    def min_jumps(self, nums, pos, tar, min_jumps_at):
+    def min_jumps(self, nums):
+        min_jumps_at = [-1] * len(nums)
+        return self.min_jumps_util(nums, 0, len(nums)-1, min_jumps_at)
+
+    def min_jumps_util(self, nums, pos, tar, min_jumps_at):
 
         if min_jumps_at[pos] != -1:
             return min_jumps_at[pos]
@@ -21,7 +25,7 @@ class Solution:
 
         for i in range(pos + 1, tar + 1):
             if (i < pos + nums[pos] + 1):
-                jumps = self.min_jumps(nums, i, tar, min_jumps_at)
+                jumps = self.min_jumps_util(nums, i, tar, min_jumps_at)
                 if (jumps != float('inf') and jumps + 1 < min_jump):
                     min_jump = jumps + 1
         min_jumps_at[pos] = min_jump
@@ -35,6 +39,5 @@ if __name__ == "__main__":
         9, 6, 9, 4, 1, 6, 8, 8, 4, 4, 2, 0, 3, 8, 5
     ]
     solution = Solution()
-    min_jumps_at = [-1] * len(nums)
-    result = solution.min_jumps(nums, 0, len(nums) - 1, min_jumps_at)
+    result = solution.min_jumps(nums)
     print(result)
