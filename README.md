@@ -1,5 +1,7 @@
-# dsa-python
-## python implementation of data structures and algorithms
+# data structures and algoritms in python. 
+
+
+> this repository contains solution to coding question collected from various online portals (leetcode, geeksforgeeks etc.). All the solutions are implemented in python 3 and are seperated into 3 categories (easy, medium and hard). every file can be run seperately i.e. every file is independent. 
 
 ### Easy 
 - two sum -> https://leetcode.com/problems/two-sum
