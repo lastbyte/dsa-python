@@ -1,6 +1,7 @@
-# dsa-python
+# data structures and algoritms in python. 
 
-## python implementation of data structures and algorithms
+
+> this repository contains solution to coding question collected from various online portals (leetcode, geeksforgeeks etc.). All the solutions are implemented in python 3 and are seperated into 3 categories (easy, medium and hard). 
 
 ### Easy
 
@@ -10,6 +11,7 @@
 - reverse integer -> https://leetcode.com/problems/reverse-integer
 - valid parentheses -> https://leetcode.com/problems/valid-parentheses
 - Diameter of a Binary Tree -> https://leetcode.com/problems/diameter-of-binary-tree/
+- Merge two sorted list -> https://leetcode.com/problems/merge-two-sorted-lists 
 
 ### Medium
 
