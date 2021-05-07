@@ -5,45 +5,45 @@ class ListNode:
 
 def mergeTwoLists(l1: ListNode, l2: ListNode) -> ListNode:
 
-    ret_list = None
-    ret_itr = None
-    while l1 is not None and l2 is not None:
+        ret_list = None
+        ret_itr = None
+        while l1 is not None and l2 is not None:
 
-        if l1.val < l2.val :
-            tmp_node = ListNode(l1.val)
+            if l1.val < l2.val :
+                tmp_node = l1
+                l1 = l1.next
+            else:
+                tmp_node = l2
+                l2 = l2.next
+
+            if ret_list is None:
+                ret_list = tmp_node
+                ret_itr = ret_list
+            else:
+                ret_itr.next = tmp_node
+                ret_itr = ret_itr.next
+
+        while l1 is not None:
+            tmp_node = l1
             l1 = l1.next
-        else:
-            tmp_node = ListNode(l2.val)
+            if ret_list is None:
+                ret_list = tmp_node
+                ret_itr = ret_list
+            else:
+                ret_itr.next = tmp_node
+                ret_itr = ret_itr.next
+
+        while l2 is not None:
+            tmp_node = l2
             l2 = l2.next
+            if ret_list is None:
+                ret_list = tmp_node
+                ret_itr = ret_list
+            else:
+                ret_itr.next = tmp_node
+                ret_itr = ret_itr.next
 
-        if ret_list is None:
-            ret_list = tmp_node
-            ret_itr = ret_list
-        else:
-            ret_itr.next = tmp_node
-            ret_itr = ret_itr.next
-
-    while l1 is not None:
-        tmp_node = ListNode(l1.val)
-        l1 = l1.next
-        if ret_list is None:
-            ret_list = tmp_node
-            ret_itr = ret_list
-        else:
-            ret_itr.next = tmp_node
-            ret_itr = ret_itr.next
-
-    while l2 is not None:
-        tmp_node = ListNode(l2.val)
-        l2 = l2.next
-        if ret_list is None:
-            ret_list = tmp_node
-            ret_itr = ret_list
-        else:
-            ret_itr.next = tmp_node
-            ret_itr = ret_itr.next
-
-    return ret_list
+        return ret_list
 
 
 

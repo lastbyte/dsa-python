@@ -4,16 +4,13 @@ class Solution:
             return 0
         memory = []
         longest_length = 0
-        valid_length = 0
+        running_length = 0
+
         for c in s:
-            if c == '(':
-                if len(memory) == 0:
-                    valid_length = 0
-                    
-            if c == ')'
+            #the stack is em
+            if len(memory) == 0:
 
         return longest_length
-
 
 result = Solution().longest_valid_parenthesis("))))()))))(()(())())")
 print(result)
