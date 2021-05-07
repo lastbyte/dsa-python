@@ -1,7 +1,9 @@
 # dsa-python
+
 ## python implementation of data structures and algorithms
 
-### Easy 
+### Easy
+
 - two sum -> https://leetcode.com/problems/two-sum
 - remove duplicates from sorted array -> https://leetcode.com/problems/remove-duplicates-from-sorted-array
 - remove element -> https://leetcode.com/problems/remove-element/
@@ -10,6 +12,7 @@
 - Diameter of a Binary Tree -> https://leetcode.com/problems/diameter-of-binary-tree/
 
 ### Medium
+
 - add 2 numbers -> https://leetcode.com/problems/add-two-numbers
 - Longest Substring Without Repeating Characters -> https://leetcode.com/problems/longest-substring-without-repeating-characters
 - Longest Palindromic Substring -> https://leetcode.com/problems/longest-palindromic-substring
@@ -27,7 +30,8 @@
 - Jump game II -> https://leetcode.com/problems/jump-game-ii
 - Rotate image -> https://leetcode.com/problems/rotate-image
 - Non decreasing array -> https://leetcode.com/problems/non-decreasing-array
-
+- delete operation for two strings -> https://leetcode.com/problems/delete-operation-for-two-strings/
 
 ### Hard
+
 - First missing positive -> https://leetcode.com/problems/first-missing-positive
