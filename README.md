@@ -33,6 +33,8 @@
 - Rotate image -> https://leetcode.com/problems/rotate-image
 - Non decreasing array -> https://leetcode.com/problems/non-decreasing-array
 - delete operation for two strings -> https://leetcode.com/problems/delete-operation-for-two-strings/
+- Inorder Successor in BST -> https://leetcode.com/problems/inorder-successor-in-bst/
+- Put boxes into the warehouse I -> https://leetcode.com/problems/put-boxes-into-the-warehouse-i
 
 ### Hard
 
