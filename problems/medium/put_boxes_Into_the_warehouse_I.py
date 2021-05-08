@@ -50,6 +50,8 @@ Constraints:
 n == warehouse.length
 1 <= boxes.length, warehouse.length <= 10^5
 1 <= boxes[i], warehouse[i] <= 10^9
+
+link -> https://leetcode.com/problems/put-boxes-into-the-warehouse-i
 '''
 
 
