@@ -1,41 +1,47 @@
-# data structures and algoritms in python. 
+# data structures and algoritms in python.
 
-
-> this repository contains solution to coding question collected from various online portals (leetcode, geeksforgeeks etc.). All the solutions are implemented in python 3 and are seperated into 3 categories (easy, medium and hard). 
+> this repository contains solution to coding question collected from various online portals (leetcode, geeksforgeeks etc.). All the solutions are implemented in python 3 and are seperated into 3 categories (easy, medium and hard).
 
 ### Easy
 
-- two sum -> https://leetcode.com/problems/two-sum
-- remove duplicates from sorted array -> https://leetcode.com/problems/remove-duplicates-from-sorted-array
-- remove element -> https://leetcode.com/problems/remove-element/
-- reverse integer -> https://leetcode.com/problems/reverse-integer
-- valid parentheses -> https://leetcode.com/problems/valid-parentheses
-- Diameter of a Binary Tree -> https://leetcode.com/problems/diameter-of-binary-tree/
-- Merge two sorted list -> https://leetcode.com/problems/merge-two-sorted-lists 
+| Problem Statement                   | solution                                                                                           |
+| ----------------------------------- | -------------------------------------------------------------------------------------------------- |
+| two sum                             | [problems/easy/two_sum.py](problems/easy/two_sum.py)                                               |
+| remove duplicates from sorted array | [problems/easy/remove_duplicates_sorted_array.py](problems/easy/remove_duplicates_sorted_array.py) |
+| remove element                      | [problems/easy/remove_element.py](problems/easy/remove_element.py)                                 |
+| reverse integer                     | [problems/easy/reverse_integer.py](problems/easy/reverse_integer.py)                               |
+| valid parentheses                   | [problems/easy/valid_parentheses.py](problems/easy/valid_parentheses.py)                           |
+| Diameter of a Binary Tree           | [problems/easy/diameter_of_a_binary_tree.py](problems/easy/diameter_of_a_binary_tree.py)           |
+| Merge two sorted list               | [problems/easy/merge_two_sorted_list.py](problems/easy/merge_two_sorted_list.py)                   |
 
 ### Medium
 
-- add 2 numbers -> https://leetcode.com/problems/add-two-numbers
-- Longest Substring Without Repeating Characters -> https://leetcode.com/problems/longest-substring-without-repeating-characters
-- Longest Palindromic Substring -> https://leetcode.com/problems/longest-palindromic-substring
-- String to integer -> https://leetcode.com/problems/string-to-integer-atoi
-- Palindrome number -> https://leetcode.com/problems/palindrome-number
-- 3sum -> https://leetcode.com/problems/3sum
-- letter combination of a phone number -> https://leetcode.com/problems/3sum
-- remove nth node from end of List -> https://leetcode.com/problems/remove-nth-node-from-end-of-list
-- Implement strStr() -> https://leetcode.com/problems/implement-strstr
-- Divide two integers -> https://leetcode.com/problems/divide-two-integers
-- Find First and Last Position of Element in Sorted Array -> https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array
-- Combination sum -> https://leetcode.com/problems/combination-sum
-- Combination sum II -> https://leetcode.com/problems/combination-sum-ii
-- Multiply strings -> https://leetcode.com/problems/multiply-strings
-- Jump game II -> https://leetcode.com/problems/jump-game-ii
-- Rotate image -> https://leetcode.com/problems/rotate-image
-- Non decreasing array -> https://leetcode.com/problems/non-decreasing-array
-- delete operation for two strings -> https://leetcode.com/problems/delete-operation-for-two-strings/
-- Inorder Successor in BST -> https://leetcode.com/problems/inorder-successor-in-bst/
-- Put boxes into the warehouse I -> https://leetcode.com/problems/put-boxes-into-the-warehouse-i
+| Problem Statement                                       | solution                                                                                                             |
+| ------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| add 2 numbers                                           | [problems/medium/add_2_numbers.py](problems/medium/add_2_numbers.py)                                                 |
+| Longest Substring Without Repeating Characters          | []()                                                                                                                 |
+| Longest Palindromic Substring                           | [problems/medium/longest_palindromic_substring.py](problems/medium/longest_palindromic_substring.py)                 |
+| String to integer                                       | [problems/medium/string_to_integer.py](problems/medium/string_to_integer.py)                                         |
+| Palindrome number                                       | [problems/medium/palindrome_number.py](problems/medium/palindrome_number.py)                                         |
+| 3sum                                                    | [problems/medium/three_sum.py](problems/medium/three_sum.py)                                                         |
+| letter combination of a phone number                    | [problems/medium/letter_combinations_of_a_phone_number.py](problems/medium/letter_combinations_of_a_phone_number.py) |
+| remove nth node from end of List                        | [problems/medium/remove_nth_node_from_end_of_list.py](problems/medium/remove_nth_node_from_end_of_list.py)           |
+| Implement strStr()                                      | [problems/medium/implement_strstr.py](problems/medium/implement_strstr.py)                                           |
+| Divide two integers                                     | [problems/medium/divide_two_integers.py](problems/medium/divide_two_integers.py)                                     |
+| Find First and Last Position of Element in Sorted Array | [problems/medium/find_first_last_pos.py](problems/medium/find_first_last_pos.py)                                     |
+| Combination sum                                         | [problems/medium/combination_sum.py](problems/medium/combination_sum.py)                                             |
+| Combination sum II                                      | [problems/medium/combination_sum_2.py](problems/medium/combination_sum_2.py)                                         |
+| Multiply strings                                        | [problems/medium/multiply_strings.py](problems/medium/multiply_strings.py)                                           |
+| Jump game II                                            | []()                                                                                                                 |
+| Rotate image                                            | [problems/medium/rotate_image.py](problems/medium/rotate_image.py)                                                   |
+| Non decreasing array                                    | [problems/medium/non_decreasing_array.py](problems/medium/non_decreasing_array.py)                                   |
+| delete operation for two strings                        | [problems/medium/delete_operation_for_two_strings.py](problems/medium/delete_operation_for_two_strings.py)           |
+| Inorder Successor in BST                                | [problems/medium/inorder_successor_in_bst.py](problems/medium/inorder_successor_in_bst.py)                           |
+| Put boxes into the warehouse I                          | [problems/medium/put_boxes_Into_the_warehouse_I.py](problems/medium/put_boxes_Into_the_warehouse_I.py)               |
 
 ### Hard
 
-- First missing positive -> https://leetcode.com/problems/first-missing-positive
+| Problem Statement      | solution                                                                           |
+| ---------------------- | ---------------------------------------------------------------------------------- |
+| First missing positive | [problems/hard/first_missing_positive.py](problems/hard/first_missing_positive.py) |
+| Reverse in groups      | [problems/hard/reverse_in_groups.py](problems/hard/reverse_in_groups.py)           |
