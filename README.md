@@ -1,17 +1,34 @@
-# data structures and algoritms in python.
+# Data-Structures and Algoritms done in Python.
 
 this repository contains solution to coding question collected from various online portals (leetcode, geeksforgeeks etc.). All the solutions are implemented in python 3 and are seperated into 3 categories (easy, medium and hard).
 
-## data-structures
+<br/>
+<br/>
 
-- ## algorithms
+### **ALGORITHMS**
 
 | algoritms | implementation                                 |
 | --------- | ---------------------------------------------- |
 | Search    | [algorithms/Search.py](algorithms/Search.py)   |
 | Sorting   | [algorithms/Sorting.py](algorithms/Sorting.py) |
 
-### Easy
+<br/>
+<br/>
+
+### **DATA-STRUCTURES**
+
+| Data-Structure     | Implementation                                                 |
+| ------------------ | -------------------------------------------------------------- |
+| Stack              | [data-structures/Stack.py](data-structures/Stack.py)           |
+| Queue              | [data-structures/Queue.py](data-structures/Queue.py)           |
+| Linked List        | [data-structures/LinkedList.py](data-structures/LinkedList.py) |
+| Binary Search Tree | [data-structures/bst.py](data-structures/bst.py)               |
+| AVL Tree           | [data-structures/avl_tree.py](data-structures/avl_tree.py)     |
+
+<br/>
+<br/>
+
+### **EASY**
 
 | Problem Statement                   | solution                                                                                           |
 | ----------------------------------- | -------------------------------------------------------------------------------------------------- |
@@ -24,7 +41,10 @@ this repository contains solution to coding question collected from various onli
 | two sum                             | [problems/easy/two_sum.py](problems/easy/two_sum.py)                                               |
 | valid parentheses                   | [problems/easy/valid_parentheses.py](problems/easy/valid_parentheses.py)                           |
 
-### Medium
+<br/>
+<br/>
+
+### **MEDIUM**
 
 | Problem Statement                                       | solution                                                                                                                                             |
 | ------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -65,7 +85,11 @@ this repository contains solution to coding question collected from various onli
 | String to integer                                       | [problems/medium/string_to_integer.py](problems/medium/string_to_integer.py)                                                                         |
 | Swap nodes in pairs                                     | [problems/medium/swap_nodes_in_pairs.py](problems/medium/swap_nodes_in_pairs.py)                                                                     |
 | three sum                                               | [problems/medium/three_sum.py](problems/medium/three_sum.py)                                                                                         |
-### Hard
+
+<br/>
+<br/>
+
+### **HARD**
 
 | Problem Statement      | solution                                                                           |
 | ---------------------- | ---------------------------------------------------------------------------------- |

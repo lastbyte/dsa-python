@@ -22,6 +22,7 @@ Constraints:
 link -> https://leetcode.com/problems/kth-largest-element-in-an-array/
 '''
 
+
 class Solution:
     def kth_largest(self, arr, k):
         heap = []
@@ -36,10 +37,10 @@ class Solution:
                 heap.pop(0)
                 heap.append(arr[i])
                 self.min_heapify(heap, 0)
-            
+
         return heap[0]
 
-    def min_heapify(self,arr, index):
+    def min_heapify(self, arr, index):
         if arr is None:
             return
 
@@ -52,7 +53,7 @@ class Solution:
         if right < len(arr):
             self.min_heapify(arr, right)
 
-        if left < len(arr) and arr[index] > arr[left] :
+        if left < len(arr) and arr[index] > arr[left]:
             arr[index], arr[left] = arr[left], arr[index]
 
         if right < len(arr) and arr[index] > arr[right]:
@@ -61,6 +62,5 @@ class Solution:
 
 if __name__ == "__main__":
     sol = Solution()
-    result = sol.kth_largest([6,9,3,4,5,10,7,8,2], 3)
+    result = sol.kth_largest([6, 9, 3, 4, 5, 10, 7, 8, 2], 3)
     print(result)
-
