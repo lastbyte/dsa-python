@@ -93,6 +93,7 @@ A collection of coding problems collected from different online portals.The sour
 | Duplicate number                                        | [problems/medium/duplicate_number.py](problems/medium/duplicate_number.py)                                                                           |
 | Find First and Last Position of Element in Sorted Array | [problems/medium/find_first_last_pos.py](problems/medium/find_first_last_pos.py)                                                                     |
 | Generate Parentheses                                    | [problems/medium/generate_paranthesis.py](problems/medium/generate_paranthesis.py)                                                                   |
+| Group Anagrams                                          | [problems/medium/group_anagrams.py](problems/medium/group_anagrams.py)                                                                               |
 | Implement strStr()                                      | [problems/medium/implement_strstr.py](problems/medium/implement_strstr.py)                                                                           |
 | Inorder Successor in BST                                | [problems/medium/inorder_successor_in_bst.py](problems/medium/inorder_successor_in_bst.py)                                                           |
 | Jump game                                               | [problems/medium/jump_game.py](problems/medium/jump_game.py)                                                                                         |
