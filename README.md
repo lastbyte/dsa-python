@@ -106,6 +106,7 @@ A collection of coding problems collected from different online portals.The sour
 | Longest Palindromic Substring                           | [problems/medium/longest_palindromic_substring.py](problems/medium/longest_palindromic_substring.py)                                                 |
 | Longest Substring Without Repeating Characters          | []()                                                                                                                                                 |
 | Multiply strings                                        | [problems/medium/multiply_strings.py](problems/medium/multiply_strings.py)                                                                           |
+| Next smallest palindrome                                | [problems/medium/next_smallest_palindrome.py](problems/medium/next_smallest_palindrome.py)                                                           |
 | Non decreasing array                                    | [problems/medium/non_decreasing_array.py](problems/medium/non_decreasing_array.py)                                                                   |
 | Number of Connected Components in an Undirected Graph   | [problems/medium/number_of_connected_components_in_an_undirected_graph.py](problems/medium/number_of_connected_components_in_an_undirected_graph.py) |
 | Palindrome number                                       | [problems/medium/palindrome_number.py](problems/medium/palindrome_number.py)                                                                         |
