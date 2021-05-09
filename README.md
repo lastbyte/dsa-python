@@ -128,7 +128,8 @@ A collection of coding problems collected from different online portals.The sour
 
 <br/>
 
-| Problem Statement      | solution                                                                           |
-| ---------------------- | ---------------------------------------------------------------------------------- |
-| First missing positive | [problems/hard/first_missing_positive.py](problems/hard/first_missing_positive.py) |
-| Reverse in groups      | [problems/hard/reverse_in_groups.py](problems/hard/reverse_in_groups.py)           |
+| Problem Statement           | solution                                                                           |
+| --------------------------- | ---------------------------------------------------------------------------------- |
+| Find the closest palindrome | [problems/hard/closest_palindrome.py](problems/hard/closest_palindrome.py)         |
+| First missing positive      | [problems/hard/first_missing_positive.py](problems/hard/first_missing_positive.py) |
+| Reverse in groups           | [problems/hard/reverse_in_groups.py](problems/hard/reverse_in_groups.py)           |
