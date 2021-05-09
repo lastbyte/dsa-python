@@ -17,6 +17,7 @@ Constraints:
 
 1 <= n <= 8
 
+link -> https://leetcode.com/problems/generate-parentheses
 '''
 from pprint import pprint
 
