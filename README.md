@@ -1,7 +1,24 @@
 # Data-Structures and Algoritms done in Python.
 
-this repository contains solution to coding question collected from various online portals (leetcode, geeksforgeeks etc.). All the solutions are implemented in python 3 and are seperated into 3 categories (easy, medium and hard).
+This repository was created as a one stop solution to prepare for interviews. All the contents are divided into following different sections.
 
+<br/>
+
+- [Data-Structures & algoritms](#DATA-STRUCTURES-&-ALGORITHMS)
+  - [Algorithms](#ALGORITHMS)
+  - [Data-Structures](#DATA-STRUCTURES)
+- [Coding Problems](#CODING-PROBLEMS)
+  - [easy](#easy)
+  - [medium](#medium)
+  - [hard](#hard)
+
+<br/>
+<br/>
+
+## **DATA-STRUCTURES & ALGORITHMS**
+
+<br/>
+python implementation of some of the commonly used algorithms 
 <br/>
 <br/>
 
@@ -17,6 +34,11 @@ this repository contains solution to coding question collected from various onli
 
 ### **DATA-STRUCTURES**
 
+<br/>
+python implementation of some of the commonly used data-structures. 
+<br/>
+<br/>
+
 | Data-Structure     | Implementation                                                 |
 | ------------------ | -------------------------------------------------------------- |
 | Stack              | [data-structures/Stack.py](data-structures/Stack.py)           |
@@ -28,7 +50,16 @@ this repository contains solution to coding question collected from various onli
 <br/>
 <br/>
 
+## **CODING PROBLEMS**
+
+<br/>
+A collection of coding problems collected from different online portals.The source of which is mentioned in the respective files. they are divided into 3 different category on the basis of the difficulty level of the problem.
+<br/>
+<br/>
+
 ### **EASY**
+
+<br/>
 
 | Problem Statement                   | solution                                                                                           |
 | ----------------------------------- | -------------------------------------------------------------------------------------------------- |
@@ -45,6 +76,8 @@ this repository contains solution to coding question collected from various onli
 <br/>
 
 ### **MEDIUM**
+
+<br/>
 
 | Problem Statement                                       | solution                                                                                                                                             |
 | ------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -90,6 +123,8 @@ this repository contains solution to coding question collected from various onli
 <br/>
 
 ### **HARD**
+
+<br/>
 
 | Problem Statement      | solution                                                                           |
 | ---------------------- | ---------------------------------------------------------------------------------- |
