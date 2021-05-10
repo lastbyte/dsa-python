@@ -69,6 +69,7 @@ A collection of coding problems collected from different online portals.The sour
 | remove duplicates from sorted array | [problems/easy/remove_duplicates_sorted_array.py](problems/easy/remove_duplicates_sorted_array.py) |
 | remove element                      | [problems/easy/remove_element.py](problems/easy/remove_element.py)                                 |
 | reverse integer                     | [problems/easy/reverse_integer.py](problems/easy/reverse_integer.py)                               |
+| Symmetric binary tree               | [problems/easy/symmetric_binary_tree.py](problems/easy/symmetric_binary_tree.py)                   |
 | two sum                             | [problems/easy/two_sum.py](problems/easy/two_sum.py)                                               |
 | valid parentheses                   | [problems/easy/valid_parentheses.py](problems/easy/valid_parentheses.py)                           |
 
