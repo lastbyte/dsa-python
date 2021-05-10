@@ -63,6 +63,7 @@ A collection of coding problems collected from different online portals.The sour
 
 | Problem Statement                   | solution                                                                                           |
 | ----------------------------------- | -------------------------------------------------------------------------------------------------- |
+| Count primes                        | [problems/easy/count_primes.py](problems/easy/count_primes.py)                                     |
 | Diameter of a Binary Tree           | [problems/easy/diameter_of_a_binary_tree.py](problems/easy/diameter_of_a_binary_tree.py)           |
 | Height balanced tree                | [problems/easy/height_balanced_tree.py](problems/easy/height_balanced_tree.py)                     |
 | Linked List Cycle                   | [problems/easy/linked_list_cycle.py](problems/easy/linked_list_cycle.py)                           |
@@ -103,7 +104,7 @@ A collection of coding problems collected from different online portals.The sour
 | Group Anagrams                                          | [problems/medium/group_anagrams.py](problems/medium/group_anagrams.py)                                                                               |
 | Implement strStr()                                      | [problems/medium/implement_strstr.py](problems/medium/implement_strstr.py)                                                                           |
 | Inorder Successor in BST                                | [problems/medium/inorder_successor_in_bst.py](problems/medium/inorder_successor_in_bst.py)                                                           |
-| Inorder traversal of binary tree (iterative)            | [problems/medium/inorder_tree_traversal_without recursion.py](problems/medium/inorder_tree_traversal_without_recursion.py)                         |
+| Inorder traversal of binary tree (iterative)            | [problems/medium/inorder_tree_traversal_without recursion.py](problems/medium/inorder_tree_traversal_without_recursion.py)                           |
 | Jump game                                               | [problems/medium/jump_game.py](problems/medium/jump_game.py)                                                                                         |
 | Jump game II                                            | [problems/medium/jump_game_ii.py](problems/medium/jump_game_ii.py)                                                                                   |
 | Kth Largest Element in an Array                         | [problems/medium/kth_largest_element_in_an_array.py](problems/medium/kth_largest_element_in_an_array.py)                                             |
