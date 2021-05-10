@@ -103,6 +103,7 @@ A collection of coding problems collected from different online portals.The sour
 | Group Anagrams                                          | [problems/medium/group_anagrams.py](problems/medium/group_anagrams.py)                                                                               |
 | Implement strStr()                                      | [problems/medium/implement_strstr.py](problems/medium/implement_strstr.py)                                                                           |
 | Inorder Successor in BST                                | [problems/medium/inorder_successor_in_bst.py](problems/medium/inorder_successor_in_bst.py)                                                           |
+| Inorder traversal of binary tree (iterative)            | [problems/medium/inorder_tree_traversal_without recursion.py](problems/medium/inorder_tree_traversal_without_recursion.py)                         |
 | Jump game                                               | [problems/medium/jump_game.py](problems/medium/jump_game.py)                                                                                         |
 | Jump game II                                            | [problems/medium/jump_game_ii.py](problems/medium/jump_game_ii.py)                                                                                   |
 | Kth Largest Element in an Array                         | [problems/medium/kth_largest_element_in_an_array.py](problems/medium/kth_largest_element_in_an_array.py)                                             |
@@ -119,6 +120,7 @@ A collection of coding problems collected from different online portals.The sour
 | Palindrome number                                       | [problems/medium/palindrome_number.py](problems/medium/palindrome_number.py)                                                                         |
 | Path sum                                                | [problems/medium/path_sum.py](problems/medium/path_sum.py)                                                                                           |
 | Pow(x, n)                                               | [problems/medium/pow.py](problems/medium/pow.py)                                                                                                     |
+| Preorder traversal ofbinary tree (iterative)            | [problems/medium/preorder_tree_traversal_without_recursion.py](problems/medium/preorder_tree_traversal_without_recursion.py)                         |
 | Put boxes into the warehouse I                          | [problems/medium/put_boxes_Into_the_warehouse_I.py](problems/medium/put_boxes_Into_the_warehouse_I.py)                                               |
 | remove nth node from end of List                        | [problems/medium/remove_nth_node_from_end_of_list.py](problems/medium/remove_nth_node_from_end_of_list.py)                                           |
 | Reverse Linked List                                     | [problems/medium/reverse_linked_list.py](problems/medium/reverse_linked_list.py)                                                                     |

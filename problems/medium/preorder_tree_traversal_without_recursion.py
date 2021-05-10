@@ -54,8 +54,7 @@ if __name__ == "__main__":
     root.right.right = TreeNode(9)
     root.right.left.left = TreeNode(4)
     root.right.left.right = TreeNode(6)
-    root.right.right.right = TreeNode(10)
-xz,    
+    root.right.right.right = TreeNode(10)   
     result = solution.pre_order_traversal(root, [])
     print(result)
     result = solution.pre_order_traversal_iterative(root)
