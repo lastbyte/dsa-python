@@ -64,8 +64,11 @@ A collection of coding problems collected from different online portals.The sour
 | Problem Statement                   | solution                                                                                           |
 | ----------------------------------- | -------------------------------------------------------------------------------------------------- |
 | Diameter of a Binary Tree           | [problems/easy/diameter_of_a_binary_tree.py](problems/easy/diameter_of_a_binary_tree.py)           |
+| Height balanced tree                | [problems/easy/height_balanced_tree.py](problems/easy/height_balanced_tree.py)                     |
 | Linked List Cycle                   | [problems/easy/linked_list_cycle.py](problems/easy/linked_list_cycle.py)                           |
+| Maximum depth of binary tree        | [problems/easy/maximum_depth_of_binary_tree.py](problems/easy/maximum_depth_of_binary_tree.py)     |
 | Merge two sorted list               | [problems/easy/merge_two_sorted_list.py](problems/easy/merge_two_sorted_list.py)                   |
+| Minimum depth of binary tree        | [problems/easy/minimum_depth_of_binary_tree.py](problems/easy/minimum_depth_of_binary_tree.py)     |
 | remove duplicates from sorted array | [problems/easy/remove_duplicates_sorted_array.py](problems/easy/remove_duplicates_sorted_array.py) |
 | remove element                      | [problems/easy/remove_element.py](problems/easy/remove_element.py)                                 |
 | reverse integer                     | [problems/easy/reverse_integer.py](problems/easy/reverse_integer.py)                               |
@@ -85,7 +88,9 @@ A collection of coding problems collected from different online portals.The sour
 | add 2 numbers                                           | [problems/medium/add_2_numbers.py](problems/medium/add_2_numbers.py)                                                                                 |
 | All Paths From Source to Target                         | [problems/medium/all_path.py](problems/medium/all_path.py)                                                                                           |
 | Binary Tree left side view                              | [problems/medium/binary_tree_left_side_view.py](problems/medium/binary_tree_left_side_view.py)                                                       |
+| Binary tree level order traversal                       | [problems/medium/binary_tree_level_order_traversal.py](problems/medium/binary_tree_level_order_traversal.py)                                         |
 | Binary Tree Right Side View                             | [problems/medium/binary_tree_right_side_view.py](problems/medium/binary_tree_right_side_view.py)                                                     |
+| Binary tree zigzag level order traversal                | [problems/medium/binary_tree_zigzag_level_order_traversal.py](problems/medium/binary_tree_zigzag_level_order_traversal.py)                           |
 | Combination sum                                         | [problems/medium/combination_sum.py](problems/medium/combination_sum.py)                                                                             |
 | Combination sum II                                      | [problems/medium/combination_sum_2.py](problems/medium/combination_sum_2.py)                                                                         |
 | Convert Sorted List to Binary Search Tree               | [problems/medium/sorted_list_to_bst.py](problems/medium/sorted_list_to_bst.py)                                                                       |
