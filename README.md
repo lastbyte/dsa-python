@@ -88,6 +88,7 @@ A collection of coding problems collected from different online portals.The sour
 | Combination sum                                         | [problems/medium/combination_sum.py](problems/medium/combination_sum.py)                                                                             |
 | Combination sum II                                      | [problems/medium/combination_sum_2.py](problems/medium/combination_sum_2.py)                                                                         |
 | Convert Sorted List to Binary Search Tree               | [problems/medium/sorted_list_to_bst.py](problems/medium/sorted_list_to_bst.py)                                                                       |
+| Count number of inversions in an array                  | [problems/medium/count_inversions_in_an_array.py](problems/medium/count_inversions_in_an_array.py)                                                   |
 | delete operation for two strings                        | [problems/medium/delete_operation_for_two_strings.py](problems/medium/delete_operation_for_two_strings.py)                                           |
 | Divide two integers                                     | [problems/medium/divide_two_integers.py](problems/medium/divide_two_integers.py)                                                                     |
 | Duplicate number                                        | [problems/medium/duplicate_number.py](problems/medium/duplicate_number.py)                                                                           |

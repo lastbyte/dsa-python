@@ -44,9 +44,6 @@ class Solution():
 
     def find_next_smallest_palindrome(self, n):
         l = len(n)
-        matches_pattern = self.is_match(n)
-        if matches_pattern:
-            return str(10**matches_pattern-1)
         if self.contains_only_nine(n):
             return str(int(n) + 2)
 
@@ -61,7 +58,9 @@ class Solution():
 
     def find_prev_largest_palindrome(self, n):
         l = len(n)
-
+        matches_pattern = self.is_match(n)
+        if matches_pattern:
+            return str(10**matches_pattern-1)
         if self.is_palindrome(n):
             return self.decrement_to_next_palindrome(n)
         else:
