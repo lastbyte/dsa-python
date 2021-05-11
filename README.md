@@ -73,6 +73,7 @@ A collection of coding problems collected from different online portals.The sour
 | remove duplicates from sorted array | [problems/easy/remove_duplicates_sorted_array.py](problems/easy/remove_duplicates_sorted_array.py) |
 | remove element                      | [problems/easy/remove_element.py](problems/easy/remove_element.py)                                 |
 | reverse integer                     | [problems/easy/reverse_integer.py](problems/easy/reverse_integer.py)                               |
+| Search insert position              | [problems/easy/search_insert_position.py](problems/easy/search_insert_position.py)                 |
 | Symmetric binary tree               | [problems/easy/symmetric_binary_tree.py](problems/easy/symmetric_binary_tree.py)                   |
 | two sum                             | [problems/easy/two_sum.py](problems/easy/two_sum.py)                                               |
 | valid parentheses                   | [problems/easy/valid_parentheses.py](problems/easy/valid_parentheses.py)                           |
@@ -138,9 +139,10 @@ A collection of coding problems collected from different online portals.The sour
 
 <br/>
 
-| Problem Statement           | solution                                                                           |
-| --------------------------- | ---------------------------------------------------------------------------------- |
-| Find the closest palindrome | [problems/hard/closest_palindrome.py](problems/hard/closest_palindrome.py)         |
-| First missing positive      | [problems/hard/first_missing_positive.py](problems/hard/first_missing_positive.py) |
-| Reverse in groups           | [problems/hard/reverse_in_groups.py](problems/hard/reverse_in_groups.py)           |
-| Super palindrome            | [problems/hard/super_palindrome.py](problems/hard/super_palindrome.py)             |
+| Problem Statement                         | solution                                                                                                                 |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Construct target array with multiple sums | [problems/hard/construct_target_array_with_multiple_sums.py](problems/hard/construct_target_array_with_multiple_sums.py) |
+| Find the closest palindrome               | [problems/hard/closest_palindrome.py](problems/hard/closest_palindrome.py)                                               |
+| First missing positive                    | [problems/hard/first_missing_positive.py](problems/hard/first_missing_positive.py)                                       |
+| Reverse in groups                         | [problems/hard/reverse_in_groups.py](problems/hard/reverse_in_groups.py)                                                 |
+| Super palindrome                          | [problems/hard/super_palindrome.py](problems/hard/super_palindrome.py)                                                   |
