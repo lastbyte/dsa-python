@@ -34,12 +34,14 @@ Constraints:
 
 link -> https://leetcode.com/problems/permutation-sequence/
 '''
+
+
 class Solution:
-    def permutation_sequence(self,n,k):
-        nums = [i for i in range(1,n+1)]
-        for i in range(k-1):
+    def permutation_sequence(self, n, k):
+        nums = [i for i in range(1, n + 1)]
+        for i in range(k - 1):
             self.next_permutation(nums)
-        return ''.join(map(str,nums))
+        return ''.join(map(str, nums))
 
     def next_permutation(self, nums):
         n = len(nums)
@@ -81,8 +83,29 @@ class Solution:
         array[correct_pivot], array[pivot] = array[pivot], array[correct_pivot]
         return correct_pivot
 
+    def permutation_sequence_1(self, n, k):
+        nums = [i for i in range(1, n + 1)]
+        sequence = []
+        for i in range(n):
+            u_bound = self.factorial(n - i - 1)
+            count = 0
+            while k > u_bound:
+                k -= u_bound
+                count += 1
+            sequence.append(nums.pop(count))
+            if k == 0:
+                break
+
+        sequence = sequence + nums[i:]
+
+        return ''.join(map(str, sequence))
+
+    def factorial(self, n):
+        return 1 if n == 0 else n * self.factorial(n - 1)
+
 
 if __name__ == "__main__":
     solution = Solution()
-    result = solution.permutation_sequence(3,3)
+    result = solution.permutation_sequence(3, 3)
+    result = solution.permutation_sequence_1(3, 3)
     print(result)
