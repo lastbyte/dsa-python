@@ -1,5 +1,5 @@
 '''
-Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.
+Implement next permutation, which rearranges nums into the lexicographically next greater permutation of numss.
 
 If such an arrangement is not possible, it must rearrange it as the lowest possible order (i.e., sorted in ascending order).
 
@@ -34,26 +34,50 @@ link -> https://leetcode.com/problems/next-permutation/
 '''
 
 
-def next_permutation(nums):
-    shuffled = False
-    for index in range(len(nums) - 1, 0, -1):
-        for index2 in range(index - 1, -1, -1):
-            if nums[index] > nums[index2]:
-                nums[index], nums[index2] = nums[index2], nums[index]
-                shuffled = True
+class Solution:
+    def next_permutation(self, nums):
+        n = len(nums)
+        if n == 1:
+            return
+        for i in range(n - 1, 0, -1):
+            if nums[i] > nums[i - 1]:
                 break
-        if shuffled:
-            break
 
-    if not shuffled:
-        i = 0
-        for i in range(len(nums) // 2):
-            nums[i], nums[len(nums) - i - 1] = nums[len(nums) - i -
-                                                    1], nums[i]
+        if i == 1 and nums[i] <= nums[i - 1]:
+            nums.sort()
+            return
+
+        x = nums[i - 1]
+        smallest = i
+        for j in range(i + 1, n):
+            if nums[j] > x and nums[j] < nums[smallest]:
+                smallest = j
+
+        nums[smallest], nums[i - 1] = nums[i - 1], nums[smallest]
+
+        self.quicksort(nums, i, len(nums) - 1)
+
+    def quicksort(self, array, left, right):
+        if left < right:
+            pivot = self.partition(array, left, right)
+            self.quicksort(array, left, pivot - 1)
+            self.quicksort(array, pivot + 1, right)
+
+    def partition(self, array, left, right):
+        pivot = left
+        correct_pivot = left
+
+        for i in range(left, right + 1):
+            if array[i] < array[pivot]:
+                correct_pivot = correct_pivot + 1
+                array[i], array[correct_pivot] = array[correct_pivot], array[i]
+
+        array[correct_pivot], array[pivot] = array[pivot], array[correct_pivot]
+        return correct_pivot
 
 
 # nums = [3, 2, 1]
-# nums = [1, 2, 3]
 nums = [1, 3, 2]
-result = next_permutation(nums)
+# nums = [2,3,1,3,3]
+result = Solution().next_permutation(nums)
 print(nums)
